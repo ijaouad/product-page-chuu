@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+header {
+    width: 100%;
+    min-height: 700px;
+    background: url(images/hero2x.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 0 10%;
+}
+
+header ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+li a {
+    text-decoration: none;
+    color: #111;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+header ul li {
+    display: inline;
+    line-height: 70px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.hero-box h1 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    font-weight: 600;
+    margin: 120px 0 30px 0;
+}
+
+.hero-box p {
+    width: 50%;
+    font-size: .9rem;
+    opacity: .8;
+    margin-bottom: 30px;
+}
+
+.btn-cta {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background: #00b5ff;
+    border-radius: 50px;
+}
+
+.featured {
+    margin-top: 60px;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.featured h3{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 40px;
+    text-align: left;
+    margin-bottom: 70px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card .title h2 {
+    display: inline;
+    font-weight: 600;
+}
+
+.card .title i {
+    font-size: 1.5rem;
+    float: right;
+    line-height: 2.2rem;
+}
+
+.card p, .specials p {
+    font-size: .9rem;
+    opacity: .8;
+}
+
+.card span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: relative;
+    left: 76%;
+}
+
+.specials {
+    width: 100%;
+    margin: 70px 0;
+    padding: 0 0 0 10%;
+}
+
+.specials>p {
+    display: inline;
+    width: 45%;
+    float: right;
+    padding-right: 10%;
+}
+
+.specials h3 {
+    display: inline;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.slider {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 30% 42% 23%;
+    grid-gap: 30px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.slid>img {
+    width: 100%;
+    height: auto;
+}
+
+.slid i {
+    font-size: 1.6rem;
+    position: relative;
+    left: 69%;
+    bottom: 8%;
+}
+
+.slid h2 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin: 10px 0;
+}
+
+.slid span {
+    font-size: 1.2rem;
+}
+
+.slid p{
+    margin: 10px 0;
+}
+
+.slid:last-child {
+    text-align: center;
+}
+
+img.arrow {
+    display: inline;
+    width: 40px;
+    height: auto;
+    margin: 10px 7px;
+}
+
+.for-you {
+    padding: 0 10%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.for-you span {
+    font-family: 'Homework';
+    font-size: 15rem;
+    position: absolute;
+    left: 30%;
+    color: #00b5ff;
+    transform: rotate(-5deg);
+}
+
+.for-you p {
+    width: 30%;
+    margin: 10px auto;
+    font-size: .8rem;
+    opacity: .8;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+.infos-footer {
+    width: 100%;
+    padding: 50px 10%;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    background: #64D2FF;
+}
+
+.infos-footer h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a, .infos-footer p{
+    text-decoration: none;
+    color: #111;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links i {
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+.about-us p {
+    margin-bottom: 20px;
+}
+.about-us a {
+    color: #111;
+    font-size: 1.2rem;
+}
+
+.terms-footer {
+    padding: 20px 10%;
+    background: #A1E3FF;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.terms-footer ul li {
+    display: inline;
+    margin: 0 30px;
+    font-style: italic;
+}
