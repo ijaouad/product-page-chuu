@@ -1,2 +1,2 @@
 # product-page-chuu
-Chuu Rebrand product page
+Chuu rebrand product page with animation on scrolling
